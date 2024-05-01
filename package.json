@@ -1,0 +1,13 @@
+{
+  "name": "@milosys/eslint-config-typescript",
+  "version": "0.0.1",
+  "description": "custom eslint config for milosys typescript projects",
+  "author": "Curt Commander <curtcommander@gmail.com>",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0"
+  }
+}
