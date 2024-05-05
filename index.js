@@ -15,6 +15,7 @@ module.exports = {
   rules: {
     "indent": [ "error", 2 ],
     "max-len": [ "error", {
+      "code": 120,
       "ignoreUrls": true,
       "ignoreStrings": true,
       "ignoreTemplateLiterals": true,
