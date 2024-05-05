@@ -13,7 +13,6 @@ module.exports = {
     "@typescript-eslint",
   ],
   rules: {
-    "indent": [ "error", 2 ],
     "max-len": [ "error", {
       "code": 120,
       "ignoreUrls": true,
@@ -29,6 +28,8 @@ module.exports = {
     "no-multi-spaces": [ "error" ],
     "no-multiple-empty-lines": [ "error", { "max": 1 } ],
     "eol-last": [ "error", "always" ],
+    "indent": "off",
+    "@typescript-eslint/indent": [ "error", 2 ],
     "@typescript-eslint/comma-dangle": [ "error", {
       "arrays": "always-multiline",
       "objects": "always-multiline",

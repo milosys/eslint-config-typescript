@@ -1,6 +1,6 @@
 {
   "name": "@milosys/eslint-config-typescript",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "custom eslint config for milosys typescript projects",
   "author": "Curt Commander <curtcommander@gmail.com>",
   "license": "UNLICENSED",
