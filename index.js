@@ -28,7 +28,6 @@ module.exports = {
     "no-multi-spaces": [ "error" ],
     "no-multiple-empty-lines": [ "error", { "max": 1 } ],
     "eol-last": [ "error", "always" ],
-    "indent": "off",
     "@typescript-eslint/indent": [ "error", 2 ],
     "@typescript-eslint/comma-dangle": [ "error", {
       "arrays": "always-multiline",
@@ -40,5 +39,8 @@ module.exports = {
       "generics": "always-multiline",
       "tuples": "always-multiline",
     }],
+    "@typescript-eslint/no-non-null-assertion": "off",
+    // rule turned off because causing issues with class constructors"
+    "@typescript-eslint/no-useless-constructor": "off",
   },
 }
